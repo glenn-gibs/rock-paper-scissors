@@ -33,6 +33,9 @@ namespace rock_paper_scissors
                         computer = "SCISSORS";
                         break;
                 }
+
+                Console.WriteLine("Player: " + player);
+                Console.WriteLine("Computer: " + computer);
             }
 
             Console.ReadKey();
