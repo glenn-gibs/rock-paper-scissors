@@ -13,10 +13,11 @@ namespace rock_paper_scissors
 
             while (playAgain)
             {
-                Console.Write("Enter ROCK, PAPER, or SCISSORS: ");
-                player = Console.ReadLine();
-                player = player.ToUpper();
-
+                while (player != "ROCK" && player != "PAPER" && player != "SCISSORS") {
+                    Console.Write("Enter ROCK, PAPER, or SCISSORS: ");
+                    player = Console.ReadLine();
+                    player = player.ToUpper();
+                }
                 Console.WriteLine(player);
             }
 
