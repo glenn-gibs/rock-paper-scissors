@@ -7,6 +7,7 @@ namespace rock_paper_scissors
         static void Main(string[] args)
         {
             Random random = new Random();
+            bool playAgain = true;
 
             Console.ReadKey();
         }
