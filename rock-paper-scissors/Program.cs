@@ -8,6 +8,8 @@ namespace rock_paper_scissors
         {
             Random random = new Random();
             bool playAgain = true;
+            String player;
+            String computer;
 
             Console.ReadKey();
         }
