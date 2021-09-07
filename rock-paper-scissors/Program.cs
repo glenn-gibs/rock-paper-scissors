@@ -84,6 +84,8 @@ namespace rock_paper_scissors
                 }
 
                 Console.Write("Would you like to play again (Y/N): ");
+                answer = Console.ReadLine();
+                answer = answer.ToUpper();
 
             }
 
