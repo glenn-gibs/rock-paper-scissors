@@ -16,6 +16,7 @@ namespace rock_paper_scissors
             {
                 player = "";
                 computer = "";
+                answer = "";
                 while (player != "ROCK" && player != "PAPER" && player != "SCISSORS") {
                     Console.Write("Enter ROCK, PAPER, or SCISSORS: ");
                     player = Console.ReadLine();
