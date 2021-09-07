@@ -52,6 +52,18 @@ namespace rock_paper_scissors
                         }
                         break;
                     case "PAPER":
+                        if (computer == "ROCK")
+                        {
+                            Console.WriteLine("You win!");
+                        }
+                        else if (computer == "PAPER")
+                        {
+                            Console.WriteLine("It's a draw!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("You lose!");
+                        }
                         break;
                     case "SCISSORS":
                         break;
