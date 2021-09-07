@@ -98,6 +98,8 @@ namespace rock_paper_scissors
 
             }
 
+            Console.WriteLine("Thanks for playing!");
+
             Console.ReadKey();
         }
     }
