@@ -80,6 +80,9 @@ namespace rock_paper_scissors
                         }
                         break;
                 }
+
+                Console.Write("Would you like to play again (Y/N): ");
+
             }
 
             Console.ReadKey();
