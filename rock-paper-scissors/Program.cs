@@ -87,6 +87,14 @@ namespace rock_paper_scissors
                 answer = Console.ReadLine();
                 answer = answer.ToUpper();
 
+                if (answer == "Y")
+                {
+                    playAgain = true;
+                } else
+                {
+                    playAgain = false;
+                }
+
             }
 
             Console.ReadKey();
