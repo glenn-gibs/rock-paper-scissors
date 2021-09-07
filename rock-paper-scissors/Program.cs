@@ -10,6 +10,7 @@ namespace rock_paper_scissors
             bool playAgain = true;
             String player;
             String computer;
+            String answer;
 
             while (playAgain)
             {
