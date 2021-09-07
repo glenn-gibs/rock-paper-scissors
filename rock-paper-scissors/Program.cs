@@ -11,6 +11,15 @@ namespace rock_paper_scissors
             String player;
             String computer;
 
+            while (playAgain)
+            {
+                Console.Write("Enter ROCK, PAPER, or SCISSORS: ");
+                player = Console.ReadLine();
+                player = player.ToUpper();
+
+                Console.WriteLine(player);
+            }
+
             Console.ReadKey();
         }
     }
