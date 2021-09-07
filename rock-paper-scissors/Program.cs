@@ -20,7 +20,7 @@ namespace rock_paper_scissors
                     player = Console.ReadLine();
                     player = player.ToUpper();
                 }
-                Console.WriteLine(player);
+                
             }
 
             Console.ReadKey();
