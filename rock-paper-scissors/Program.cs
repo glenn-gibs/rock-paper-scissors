@@ -36,6 +36,26 @@ namespace rock_paper_scissors
 
                 Console.WriteLine("Player: " + player);
                 Console.WriteLine("Computer: " + computer);
+
+                switch (player)
+                {
+                    case "ROCK":
+                        if (computer == "ROCK")
+                        {
+                            Console.WriteLine("It's a draw!");
+                        } else if (computer == "PAPER")
+                        {
+                            Console.WriteLine("You lose!");
+                        } else
+                        {
+                            Console.WriteLine("You win!");
+                        }
+                        break;
+                    case "PAPER":
+                        break;
+                    case "SCISSORS":
+                        break;
+                }
             }
 
             Console.ReadKey();
