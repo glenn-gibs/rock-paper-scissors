@@ -21,6 +21,18 @@ namespace rock_paper_scissors
                     player = player.ToUpper();
                 }
                 
+                switch (random.Next(1, 4))
+                {
+                    case 1:
+                        computer = "ROCK";
+                        break;
+                    case 2:
+                        computer = "PAPER";
+                        break;
+                    case 3:
+                        computer = "SCISSORS";
+                        break;
+                }
             }
 
             Console.ReadKey();
